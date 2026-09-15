@@ -15,14 +15,14 @@ function nextSlide() {
     showSlide(currentSlide);
 }
 
-// Troca automática a cada 15 segundos
+
 setInterval(nextSlide, 15000);
 
 function goToSlide(index) {
     showSlide(index);
 }
 
-// departamentos 
+
 const openBtn = document.querySelector('.open-btn');
 const categoryMenu = document.querySelector('.category-menu');
 const sidebar = categoryMenu.querySelector('.sidebar');
