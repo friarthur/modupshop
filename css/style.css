@@ -14,12 +14,12 @@
 
 body {
     line-height: 1.6;
-    background-color: var(--Azul-claro); /* Tom de azul claro */
+    background-color: var(--Azul-claro); 
 }
 
-/* Estilos do Header */
+
 .header {
-    background:  var(--Azul-facebook); /* Azul semelhante ao do Facebook */
+    background:  var(--Azul-facebook); 
     color: #fff;
     padding: 20px 0;
     text-align: center;
