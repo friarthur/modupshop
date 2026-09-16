@@ -83,7 +83,7 @@ body {
 .sidebar {
     position: fixed;
     top: 0;
-    left: -300px; /* Começa fora da tela */
+    left: -300px;
     width: 300px;
     height: 100%;
     background-color: #fff;
@@ -92,7 +92,7 @@ body {
     transition: left 0.3s ease;
     padding: 20px;
     box-sizing: border-box;
-    overflow-y: auto;  /* Ativa a rolagem vertical */
+    overflow-y: auto;  
     scrollbar-width: thin; 
 }
 .sidebar-menu {
@@ -105,7 +105,7 @@ body {
     padding: 10px 20px;
 }
 .subcategory {
-    display: none;  /* Submenu oculto inicialmente */
+    display: none;  
     list-style: none;
     padding-left: 20px;
     margin-top: 10px;
@@ -121,7 +121,7 @@ body {
     background-color: #f1f1f1;
 }
 
-/* Animação de abrir/fechar submenu */
+
 .category-toggle.active + .subcategory {
     display: block;
     animation: slideDown 0.5s ease-in-out;
@@ -133,7 +133,7 @@ body {
         opacity: 0;
     }
     to {
-        max-height: 200px; /* Ajuste conforme necessário */
+        max-height: 200px; 
         opacity: 1;
     }
 }
